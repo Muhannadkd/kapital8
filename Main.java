@@ -18,7 +18,11 @@ public class Main
         }
         System.out.println("Summe: " +summe);
         System.out.println("Mult= " +mult);
+
         System.out.println("Summe wurde berechnet");
+
+        System.out.println("Multiplikation wurde berechnet");
+
         
         
     }
