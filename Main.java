@@ -5,7 +5,7 @@ public class Main
 {
     public static void main(String args[])
     {
-        int summe =20;
+        double summe =20;
         for(int i = 1;i<=20;i++)
         {
             summe +=i;
