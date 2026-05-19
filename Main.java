@@ -1,4 +1,4 @@
-
+import java.math.*;
 
 
 public class Main
@@ -14,7 +14,8 @@ public class Main
         int mult= 1;
         for(int i =1;i<=10;i++)
         {
-            mult*= i;
+            BigInteger temp = new BigInteger(String.valueOf(i));
+            mult*=i;
         }
         System.out.println("Summe: " +summe);
         System.out.println("Mult= " +mult);
